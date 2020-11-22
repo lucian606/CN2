@@ -1,0 +1,10 @@
+rjmp main
+
+loadNumber:
+    ldi r20, 66
+    ret
+
+main:
+    ldi r20, 1
+    rcall loadNumber
+

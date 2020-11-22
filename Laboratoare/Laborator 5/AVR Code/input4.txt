@@ -1,0 +1,19 @@
+rjmp main
+
+difNumbers:
+    pop r21 ;ret addr 1
+    pop r22 ;ret addr 2
+    pop r23 ;b
+    pop r24 ;a
+    sub r24, r23 ;a - b
+    mov r16, r24 ;r16 = a - b
+    push r22
+    push r21 ;restore ret addr
+    ret
+
+main:
+    ldi r17, 10
+    ldi r18, 7
+    push r17
+    push r18
+    rcall difNumbers

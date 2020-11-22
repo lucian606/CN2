@@ -1,0 +1,22 @@
+rjmp main
+
+sum:
+    pop r21 ;ret addr1
+    pop r22 ;ret addr2
+    ldi r20, 0
+    ldi r24, 1 ;loop decrement step
+    pop r23 ; n, poping here to check with breq if n is 0
+loop:
+    brbc 1, end ;check if n == 0 (ZF == 1)
+    add r20, r23 ;r20 += r23
+    sub r23, r24 ;r23--
+    rjmp loop
+end:
+    push r22
+    push r21 ;restoring ret addr
+    ret
+
+main:
+    ldi r16, 5
+    push r16
+    rcall sum
