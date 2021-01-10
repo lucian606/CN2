@@ -1,0 +1,9 @@
+jmp_loop:
+ldi r20, 0xff
+out 0x01, r20; setting PORT-A as out
+ldi r20, 0x00
+out 0x05, r20; setting PORT-B as in
+eor r16, r16
+in r16, 0x06; get value from PORTB
+out 0x02, r16; PORTA <= PORTB
+rjmp jmp_loop
