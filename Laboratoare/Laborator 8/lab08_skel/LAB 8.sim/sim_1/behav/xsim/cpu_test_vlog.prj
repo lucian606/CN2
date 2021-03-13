@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../LAB 8.srcs/sources_1/imports/lab08_skel" \
+"../../../../LAB 8.srcs/sources_1/imports/lab08_skel/alu.v" \
+"../../../../LAB 8.srcs/sources_1/imports/lab08_skel/bus_interface_unit.v" \
+"../../../../LAB 8.srcs/sources_1/imports/lab08_skel/control_unit.v" \
+"../../../../LAB 8.srcs/sources_1/imports/lab08_skel/cpu.v" \
+"../../../../LAB 8.srcs/sources_1/imports/lab08_skel/decode_unit.v" \
+"../../../../LAB 8.srcs/sources_1/imports/lab08_skel/gpio.v" \
+"../../../../LAB 8.srcs/sources_1/imports/lab08_skel/gpio_unit.v" \
+"../../../../LAB 8.srcs/sources_1/imports/lab08_skel/reg_file_interface_unit.v" \
+"../../../../LAB 8.srcs/sources_1/imports/lab08_skel/register_file.v" \
+"../../../../LAB 8.srcs/sources_1/imports/lab08_skel/rom.v" \
+"../../../../LAB 8.srcs/sources_1/imports/lab08_skel/signal_generation_unit.v" \
+"../../../../LAB 8.srcs/sources_1/imports/lab08_skel/sram.v" \
+"../../../../LAB 8.srcs/sources_1/imports/lab08_skel/state_machine.v" \
+"../../../../LAB 8.srcs/sources_1/imports/lab08_skel/timer_unit.v" \
+"../../../../LAB 8.srcs/sources_1/imports/lab08_skel/cpu_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

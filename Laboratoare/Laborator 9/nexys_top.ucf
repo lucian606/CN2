@@ -1,0 +1,59 @@
+NET "PRI_OSC" LOC = V10;
+
+NET "BTN[4]"  LOC = C4;
+NET "BTN[3]"  LOC = D9;
+NET "BTN[2]"  LOC = A8;
+NET "BTN[1]"  LOC = C9;
+NET "BTN[0]"  LOC = B8;
+
+NET "LED[7]"  LOC = T11;
+NET "LED[6]"  LOC = R11;
+NET "LED[5]"  LOC = N11;
+NET "LED[4]"  LOC = M11;
+NET "LED[3]"  LOC = V15;
+NET "LED[2]"  LOC = U15;
+NET "LED[1]"  LOC = V16;
+NET "LED[0]"  LOC = U16;
+
+NET "SW[7]"   LOC = T5;
+NET "SW[6]"   LOC = V8;
+NET "SW[5]"   LOC = U8;
+NET "SW[4]"   LOC = N8;
+NET "SW[3]"   LOC = M8;
+NET "SW[2]"   LOC = V9;
+NET "SW[1]"   LOC = T9;
+NET "SW[0]"   LOC = T10;
+
+NET "AN[3]"   LOC = P17;
+NET "AN[2]"   LOC = P18;
+NET "AN[1]"   LOC = N15;
+NET "AN[0]"   LOC = N16;
+
+NET "CA"      LOC = T17;
+NET "CB"      LOC = T18;
+NET "CC"      LOC = U17;
+NET "CD"      LOC = U18;
+NET "CE"      LOC = M14;
+NET "CF"      LOC = N14;
+NET "CG"      LOC = L14;
+NET "DP"      LOC = M13;
+
+NET "JA[3]"   LOC = V11;
+NET "JA[2]"   LOC = U11;
+NET "JA[1]"   LOC = N9;
+NET "JA[0]"   LOC = M10;
+
+NET "JB[3]"   LOC = K5;
+NET "JB[2]"   LOC = K3;
+NET "JB[1]"   LOC = J1;
+NET "JB[0]"   LOC = J3;
+
+NET "JC[3]"   LOC = F2;
+NET "JC[2]"   LOC = J6;
+NET "JC[1]"   LOC = J7;
+NET "JC[0]"   LOC = G1;
+
+NET "JD[3]"   LOC = E12;
+NET "JD[2]"   LOC = F12;
+NET "JD[1]"   LOC = C12;
+NET "JD[0]"   LOC = D12;

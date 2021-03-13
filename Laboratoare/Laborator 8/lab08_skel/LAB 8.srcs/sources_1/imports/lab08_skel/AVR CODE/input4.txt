@@ -1,0 +1,14 @@
+TCCR0A equ 0x19
+TCCR0B equ 0x18
+TCNT0  equ 0x17
+OCR0A  equ 0x16
+OCR0B  equ 0x15
+PORTA  equ 0x02
+DDRA   equ 0x01
+
+ldi r16, 10000011
+out TCCR0A, r16
+ldi r17, 00000001
+out TCCR0B, r17
+ldi r18, 00111111
+out OCR0A, r18
